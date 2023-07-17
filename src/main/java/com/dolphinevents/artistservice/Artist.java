@@ -1,5 +1,6 @@
 package com.dolphinevents.artistservice;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -50,7 +51,7 @@ public class Artist {
     
     private String phone;
 
-    //@JsonIgnore
+    @JsonIgnore
     private String password;
 
     public Integer getId() {
