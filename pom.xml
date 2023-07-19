@@ -13,7 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>artist-service</name>
 	<description>Demo project for Spring Boot</description>
-
 	<properties>
 		<start-class>com.dolphinevents.artistservice.ArtistServiceApplication</start-class>
 		<java.version>17</java.version>
